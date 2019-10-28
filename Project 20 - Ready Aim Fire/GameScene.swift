@@ -20,7 +20,6 @@ class GameScene: SKScene {
     var scoreLabel: SKLabelNode!
     var score = 0 {
         didSet {
-            // your code here
             scoreLabel.text = "Score: \(score)"
         }
     }
@@ -29,6 +28,7 @@ class GameScene: SKScene {
         scoreLabel = SKLabelNode(fontNamed: "Chalkduster")
         scoreLabel.position = CGPoint(x: 16, y: 16)
         scoreLabel.horizontalAlignmentMode = .left
+        scoreLabel.text = "Score = 0"
         addChild(scoreLabel)
         
         let background = SKSpriteNode(imageNamed: "background")
