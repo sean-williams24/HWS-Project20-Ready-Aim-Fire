@@ -12,6 +12,7 @@ class GameScene: SKScene {
     
     var gameTimer: Timer?
     var fireworks = [SKNode]()
+    var launches = 0
 
     let leftEdge = -22
     let bottomEdge = -22
@@ -89,6 +90,7 @@ class GameScene: SKScene {
 
     @objc func launchFireworks() {
         let movementAmount: CGFloat = 1800
+        launches += 1
 
         switch Int.random(in: 0...3) {
         case 0:
@@ -172,12 +174,23 @@ class GameScene: SKScene {
                 firework.removeFromParent()
             }
         }
+    
+    if launches == 5 {
+        gameTimer?.invalidate()
+    }
+        
     }
     
     func explode(firework: SKNode) {
         if let emitter = SKEmitterNode(fileNamed: "explode") {
             emitter.position = firework.position
             addChild(emitter)
+            
+            let delay = SKAction.wait(forDuration: 2)
+            let remove = SKAction.removeFromParent()
+            
+            let sequence = SKAction.sequence([delay, remove])
+            emitter.run(sequence)
         }
 
         firework.removeFromParent()
