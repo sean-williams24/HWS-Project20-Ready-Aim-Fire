@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		CE397BDD2366D8640001A6E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE397BDC2366D8640001A6E2 /* AppDelegate.swift */; };
 		CE397BDF2366D8640001A6E2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE397BDE2366D8640001A6E2 /* GameScene.sks */; };
-		CE397BE12366D8640001A6E2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE397BE02366D8640001A6E2 /* Actions.sks */; };
 		CE397BE32366D8640001A6E2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE397BE22366D8640001A6E2 /* GameScene.swift */; };
 		CE397BE52366D8640001A6E2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE397BE42366D8640001A6E2 /* GameViewController.swift */; };
 		CE397BE82366D8640001A6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE397BE62366D8640001A6E2 /* Main.storyboard */; };
 		CE397BEA2366D8660001A6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE397BE92366D8660001A6E2 /* Assets.xcassets */; };
 		CE397BED2366D8660001A6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE397BEB2366D8660001A6E2 /* LaunchScreen.storyboard */; };
+		CE397BF62366D8B80001A6E2 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE397BF42366D8B70001A6E2 /* explode.sks */; };
+		CE397BF72366D8B80001A6E2 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE397BF52366D8B70001A6E2 /* fuse.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE397BD92366D8640001A6E2 /* Proect 20 - Ready Aim Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proect 20 - Ready Aim Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE397BD92366D8640001A6E2 /* Project 20 - Ready Aim Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 20 - Ready Aim Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE397BDC2366D8640001A6E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE397BDE2366D8640001A6E2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		CE397BE02366D8640001A6E2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		CE397BE22366D8640001A6E2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CE397BE42366D8640001A6E2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CE397BE72366D8640001A6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE397BE92366D8660001A6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE397BEC2366D8660001A6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE397BEE2366D8660001A6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE397BF42366D8B70001A6E2 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		CE397BF52366D8B70001A6E2 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 		CE397BD02366D8640001A6E2 = {
 			isa = PBXGroup;
 			children = (
-				CE397BDB2366D8640001A6E2 /* Proect 20 - Ready Aim Fire */,
+				CE397BDB2366D8640001A6E2 /* Project 20 - Ready Aim Fire */,
 				CE397BDA2366D8640001A6E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +54,34 @@
 		CE397BDA2366D8640001A6E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE397BD92366D8640001A6E2 /* Proect 20 - Ready Aim Fire.app */,
+				CE397BD92366D8640001A6E2 /* Project 20 - Ready Aim Fire.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE397BDB2366D8640001A6E2 /* Proect 20 - Ready Aim Fire */ = {
+		CE397BDB2366D8640001A6E2 /* Project 20 - Ready Aim Fire */ = {
 			isa = PBXGroup;
 			children = (
 				CE397BDC2366D8640001A6E2 /* AppDelegate.swift */,
 				CE397BDE2366D8640001A6E2 /* GameScene.sks */,
-				CE397BE02366D8640001A6E2 /* Actions.sks */,
 				CE397BE22366D8640001A6E2 /* GameScene.swift */,
 				CE397BE42366D8640001A6E2 /* GameViewController.swift */,
 				CE397BE62366D8640001A6E2 /* Main.storyboard */,
 				CE397BE92366D8660001A6E2 /* Assets.xcassets */,
 				CE397BEB2366D8660001A6E2 /* LaunchScreen.storyboard */,
 				CE397BEE2366D8660001A6E2 /* Info.plist */,
+				CE397BF42366D8B70001A6E2 /* explode.sks */,
+				CE397BF52366D8B70001A6E2 /* fuse.sks */,
 			);
-			path = "Proect 20 - Ready Aim Fire";
+			path = "Project 20 - Ready Aim Fire";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE397BD82366D8640001A6E2 /* Proect 20 - Ready Aim Fire */ = {
+		CE397BD82366D8640001A6E2 /* Project 20 - Ready Aim Fire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE397BF12366D8660001A6E2 /* Build configuration list for PBXNativeTarget "Proect 20 - Ready Aim Fire" */;
+			buildConfigurationList = CE397BF12366D8660001A6E2 /* Build configuration list for PBXNativeTarget "Project 20 - Ready Aim Fire" */;
 			buildPhases = (
 				CE397BD52366D8640001A6E2 /* Sources */,
 				CE397BD62366D8640001A6E2 /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Proect 20 - Ready Aim Fire";
+			name = "Project 20 - Ready Aim Fire";
 			productName = "Proect 20 - Ready Aim Fire";
-			productReference = CE397BD92366D8640001A6E2 /* Proect 20 - Ready Aim Fire.app */;
+			productReference = CE397BD92366D8640001A6E2 /* Project 20 - Ready Aim Fire.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE397BD42366D8640001A6E2 /* Build configuration list for PBXProject "Proect 20 - Ready Aim Fire" */;
+			buildConfigurationList = CE397BD42366D8640001A6E2 /* Build configuration list for PBXProject "Project 20 - Ready Aim Fire" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE397BD82366D8640001A6E2 /* Proect 20 - Ready Aim Fire */,
+				CE397BD82366D8640001A6E2 /* Project 20 - Ready Aim Fire */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +138,8 @@
 				CE397BDF2366D8640001A6E2 /* GameScene.sks in Resources */,
 				CE397BEA2366D8660001A6E2 /* Assets.xcassets in Resources */,
 				CE397BED2366D8660001A6E2 /* LaunchScreen.storyboard in Resources */,
-				CE397BE12366D8640001A6E2 /* Actions.sks in Resources */,
+				CE397BF72366D8B80001A6E2 /* fuse.sks in Resources */,
+				CE397BF62366D8B80001A6E2 /* explode.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,15 +298,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DN4729AK8V;
-				INFOPLIST_FILE = "Proect 20 - Ready Aim Fire/Info.plist";
+				INFOPLIST_FILE = "Project 20 - Ready Aim Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.seanwilliams.Proect-20---Ready-Aim-Fire";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanwilliams.Project-20---Ready-Aim-Fire";
+				PRODUCT_NAME = "Project 20 - Ready Aim Fire";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,22 +316,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DN4729AK8V;
-				INFOPLIST_FILE = "Proect 20 - Ready Aim Fire/Info.plist";
+				INFOPLIST_FILE = "Project 20 - Ready Aim Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.seanwilliams.Proect-20---Ready-Aim-Fire";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanwilliams.Project-20---Ready-Aim-Fire";
+				PRODUCT_NAME = "Project 20 - Ready Aim Fire";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE397BD42366D8640001A6E2 /* Build configuration list for PBXProject "Proect 20 - Ready Aim Fire" */ = {
+		CE397BD42366D8640001A6E2 /* Build configuration list for PBXProject "Project 20 - Ready Aim Fire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE397BEF2366D8660001A6E2 /* Debug */,
@@ -336,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE397BF12366D8660001A6E2 /* Build configuration list for PBXNativeTarget "Proect 20 - Ready Aim Fire" */ = {
+		CE397BF12366D8660001A6E2 /* Build configuration list for PBXNativeTarget "Project 20 - Ready Aim Fire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE397BF22366D8660001A6E2 /* Debug */,
